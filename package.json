@@ -1,0 +1,41 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://Tonya-Mazakova.github.io/ToDo-React",
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "history": "file:node_modules\\history",
+    "immutable": "^3.8.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-fa": "^5.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-modal": "^3.1.11",
+    "react-modal-dialog": "^4.0.7",
+    "react-native-prompt": "^1.0.0",
+    "react-popup": "^0.9.2",
+    "react-progressbar": "^15.4.1",
+    "react-promise": "^2.0.1",
+    "react-redux": "^5.0.6",
+    "react-responsive-modal": "^2.0.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2",
+    "styled-components": "^2.4.0",
+    "warning": "file:node_modules\\warning"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
