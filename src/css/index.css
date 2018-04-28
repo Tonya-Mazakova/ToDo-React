@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: bold 16px 'Handlee', cursive;
+  background-color: #f5ffff;
+}
+
+/***Popup***/
+.transition-enter {
+    transform: scale(0);
+}
+.transition-enter-active {
+    transform: scale(1);
+    transition: transform 1000ms ease;
+}
+.transition-exit {
+    transform: scale(1);
+}
+.transition-exit-active {
+    transform: scale(0);
+    transition: transform 1000ms ease;
+}
+
+/***Icon***/
+.icon-style{
+    cursor: pointer;
+    font-size: 20px !important;
+}
+/***Input***/
+.input-style{
+    width:250px;
+    padding-left:7px;
+    height:35px;
+    border:none;
+    font: bold 16px 'Handlee', cursive;
+    color:grey;
+}
+.button-style{
+    font: bold 16px 'Handlee', cursive;
+    width:65px;
+    border:none;
+    margin-left:-1px;
+    background-color:yellow;
+    color:#4ae0e2;
+    transition:.2s linear;
+    cursor: pointer;
+}
+
+.button-style:hover{
+    background-color:#4ae0e2;
+    color:yellow;
+}
+
